@@ -19,24 +19,17 @@ header {
   justify-content: center;
   margin-bottom: 15px;
 }
-/* Logo creado con CSS */
-.logo-css {
+.logo {
   height: 120px;
-  width: 120px;
-  background: linear-gradient(135deg, #8B0000 0%, #FF4500 100%);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: auto;
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
   border: 4px solid #FFD700;
+  margin-bottom: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  margin-bottom: 15px;
-}
-.logo-css span {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #FFD700;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background: white;
+  padding: 5px;
 }
 header h1 {
   margin: 10px 0 0;
