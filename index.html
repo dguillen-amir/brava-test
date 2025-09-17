@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bravas Hamburguesería</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://placehold.co/200x200/8B0000/FFFFFF/png?text=BRAVAS" alt="Bravas Hamburguesería" class="logo">
+      <h1>Bravas Hamburguesería</h1>
+      <p class="tagline">Las hamburguesas más audaces de la ciudad</p>
+    </div>
+    <nav>
+      <a href="#" onclick="mostrarSeccion('inicio')">Inicio</a>
+      <a href="#" onclick="mostrarSeccion('historia')">Historia</a>
+      <a href="#" onclick="mostrarSeccion('carta')">Carta</a>
+      <a href="#" onclick="mostrarSeccion('contacto')">Contáctenos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="seccion activa">
+      <h2>Bienvenido a Bravas</h2>
+      <p>Disfruta de las hamburguesas más sabrosas de Lima, directo a tu mesa 🍔</p>
+      <div>
+        <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Hamburguesa Bravas" class="imagen-hamburguesa">
+      </div>
+    </section>
+
+    <section id="historia" class="seccion">
+      <h2>Nuestra Historia</h2>
+      <p>Fundada en 2015, Bravas Hamburguesería nació de la pasión por crear hamburguesas excepcionales con ingredientes de la más alta calidad.</p>
+      <p>Nuestro objetivo es simple: servir las hamburguesas más jugosas y sabrosas, con un toque de audacia que nos distingue.</p>
+      <div class="features">
+        <h3>¿Por qué elegirnos?</h3>
+        <ul>
+          <li>Carne 100% de res alimentada con pasto</li>
+          <li>Pan artesanal horneado diariamente</li>
+          <li>Salsas y aderezos caseros</li>
+          <li>Ingredientes frescos y locales</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="carta" class="seccion">
+      <h2>Nuestra Carta</h2>
+      <p>Descubre nuestras hamburguesas artesanales y acompañamientos</p>
+      
+      <div class="menu-item">
+        <h3><span>Hamburguesa Clásica BRAVAS</span> <span>S/ 18</span></h3>
+        <p>Carne de res, queso cheddar, lechuga, tomate, cebolla y salsa BRAVAS especial</p>
+      </div>
+      
+      <div class="menu-item">
+        <h3><span>Hamburguesa BBQ Picante</span> <span>S/ 22</span></h3>
+        <p>Doble carne, bacon crujiente, aros de cebolla, queso pepper jack y salsa barbacoa picante</p>
+      </div>
+      
+      <div class="menu-item">
+        <h3><span>Hamburguesa Vegana BRAVAS</span> <span>S/ 20</span></h3>
+        <p>Medallón de lentejas y garbanzos, aguacate, rúcula y mayonesa de cilantro</p>
+      </div>
+      
+      <div class="menu-item">
+        <h3><span>Papas BRAVAS</span> <span>S/ 12</span></h3>
+        <p>Papas rústicas con salsa brava, alioli y pimentón</p>
+      </div>
+      
+      <div class="menu-item">
+        <h3><span>Refresco Artesanal</span> <span>S/ 8</span></h3>
+        <p>Refresco de frutas natural (maracuyá, fresa o limonada)</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <h2>Contáctenos</h2>
+      <p>¡Hacemos entregas a domicilio!</p>
+      
+      <div class="direccion">
+        <h3>Dirección</h3>
+        <p>Sector 9, Grupo 1, Mz L Lote 23 - VES</p>
+      </div>
+      
+      <p>Teléfono: +51 923 618 823</p>
+      <p>Horario: Lunes a Domingo de 12:00 pm - 11:00 pm</p>
+      
+      <a class="btn-whatsapp" href="https://wa.me/51923618823?text=Hola%20quiero%20hacer%20un%20pedido" target="_blank">
+        📲 Pedir por WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Bravas Hamburguesería | Diseñado con ❤️ para amantes de las hamburguesas
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
